@@ -343,6 +343,11 @@ Rails.application.routes.draw do
       namespace :push do
         resource :subscription, only: [:create, :show, :update, :destroy]
       end
+
+      namespace :admin do
+        resources :accounts, only: [:index, :show]
+        resources :reports, only: [:index, :show]
+      end
     end
 
     namespace :v2 do
