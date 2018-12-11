@@ -287,7 +287,7 @@ GEM
     jaro_winkler (1.5.1)
     jmespath (1.4.0)
     json (2.1.0)
-    json-ld (2.2.1)
+    json-ld (3.0.2)
       multi_json (~> 1.12)
       rdf (>= 2.2.8, < 4.0)
     json-ld-preloaded (3.0.0)
@@ -696,7 +696,7 @@ DEPENDENCIES
   i18n-tasks (~> 0.9)
   idn-ruby
   iso-639
-  json-ld (~> 2.2)
+  json-ld (~> 3.0)
   json-ld-preloaded (~> 3.0)
   kaminari (~> 1.1)
   letter_opener (~> 1.7)
